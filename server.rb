@@ -2,6 +2,5 @@ require 'sinatra'
 
 
 get '/home' do
-  #instructions
-
+  erb :index
 end
