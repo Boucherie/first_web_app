@@ -1,0 +1,10 @@
+<h1>Favorites</h1>
+
+<h2>Top Five Hits This Week</h2>
+
+<ul>
+  <% @fav_links.each do |link| %>
+    <li><a href=<%=link %>><%= link %></a> </li>
+    # alligators for link twice- once for display, once for function (nested)
+  <% end %>
+</ul>
